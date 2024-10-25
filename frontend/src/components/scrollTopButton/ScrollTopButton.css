@@ -1,0 +1,18 @@
+.scroll-to-top{
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    padding: 10px 20px;
+    color: tomato;    
+    cursor: pointer;
+}
+.scroll-to-top:hover{
+    color:rgb(36, 36, 204);
+}
+
+@media(max-width:800px){
+    .scroll-to-top{
+        padding: 10px 1px;
+        right: 16px;
+    }
+}
